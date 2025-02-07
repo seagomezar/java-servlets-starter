@@ -155,5 +155,5 @@ shutdown.bat
 
 Con esta guía, puedes desarrollar y desplegar aplicaciones Java Web con Servlets en Apache Tomcat. 🚀
 
-Te dejo el siguiente Video donde Hago este mismo proceso por si tienes alguna duda:
+Si en tu caso estas usando Mac, revisa guia-mac.md
 
