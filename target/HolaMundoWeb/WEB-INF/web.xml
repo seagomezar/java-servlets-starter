@@ -3,14 +3,4 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
          http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
-
-    <servlet>
-        <servlet-name>HolaMundoServlet</servlet-name>
-        <servlet-class>com.example.HolaMundoServlet</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>HolaMundoServlet</servlet-name>
-        <url-pattern>/hola</url-pattern>
-    </servlet-mapping>
 </web-app>
