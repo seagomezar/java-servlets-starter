@@ -5,12 +5,16 @@ Esta guía detalla los pasos para instalar y configurar Java, Maven y Tomcat, y 
 ## **1. Instalación de Requisitos Previos**
 
 ### **1.1 Instalar Java Development Kit (JDK)**
-- Descarga la última versión del JDK desde [Oracle JDK](https://www.oracle.com/java/technologies/javase-downloads.html) o [OpenJDK](https://jdk.java.net/).
+- Descarga la última versión del JDK desde [Oracle JDK](https://www.oracle.com/java/technologies/javase-downloads.html) (Yo te recomiendo la version 21, pero la 23 podría funcionar muy bien)
 - Instala el JDK y configúra las variables de entorno:
   1. Abre el "Panel de Control" > "Sistema y Seguridad" > "Sistema" > "Configuración avanzada del sistema".
   2. Haz clic en "Variables de entorno".
   3. Agrega una nueva variable `JAVA_HOME` con la ruta del JDK (Ejemplo: `C:\Program Files\Java\jdk-21`).
   4. Asegúrate de agregar `%JAVA_HOME%\bin` a la variable `Path`.
+  5. Verifica la instalacion ejecutando:
+  ```sh
+     java -version
+    ```
 
 ### **1.2 Instalar Apache Maven**
 - Descarga la última versión desde [Apache Maven](https://maven.apache.org/download.cgi).
@@ -150,4 +154,6 @@ shutdown.bat
 9. Detener Tomcat cuando sea necesario.
 
 Con esta guía, puedes desarrollar y desplegar aplicaciones Java Web con Servlets en Apache Tomcat. 🚀
+
+Te dejo el siguiente Video donde Hago este mismo proceso por si tienes alguna duda:
 
