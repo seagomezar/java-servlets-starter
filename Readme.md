@@ -5,7 +5,8 @@ Esta guía detalla los pasos para instalar y configurar Java, Maven y Tomcat, y 
 ## **1. Instalación de Requisitos Previos**
 
 ### **1.1 Instalar Java Development Kit (JDK)**
-- Descarga la última versión del JDK desde [Oracle JDK](https://www.oracle.com/java/technologies/javase-downloads.html) (Yo te recomiendo la version 21, pero la 23 podría funcionar muy bien)
+- Descarga la última versión del JDK desde [Oracle JDK](https://www.oracle.com/java/technologies/javase-downloads.html)
+- **Nota**: Este proyecto requiere Java 11 o superior. Se recomienda Java 17 o 21 (versiones LTS)
 - Instala el JDK y configúra las variables de entorno:
   1. Abre el "Panel de Control" > "Sistema y Seguridad" > "Sistema" > "Configuración avanzada del sistema".
   2. Haz clic en "Variables de entorno".
@@ -46,11 +47,13 @@ Abre el archivo `pom.xml` y añade la dependencia de Jakarta Servlets:
     <dependency>
         <groupId>jakarta.servlet</groupId>
         <artifactId>jakarta.servlet-api</artifactId>
-        <version>5.0.0</version>
+        <version>6.1.0</version>
         <scope>provided</scope>
     </dependency>
 </dependencies>
 ```
+
+> **Nota**: Este proyecto utiliza Jakarta Servlet API 6.1.0 (la versión más reciente) y JUnit 5.10.2 para pruebas. Todas las dependencias están actualizadas a sus versiones estables más recientes.
 
 ## **4. Crear un Servlet**
 Crea una clase `HolaMundoServlet.java` en `src/main/java/com/example/` con el siguiente contenido:
