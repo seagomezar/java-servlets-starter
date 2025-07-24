@@ -103,6 +103,12 @@ src/
 └── test/
     └── java/com/example/
         └── HolaMundoServletTest.java # ✅ Unit tests
+
+📁 Additional files:
+├── pom.xml                          # 📦 Maven configuration
+├── Readme.md                        # 📖 This educational guide
+├── EXAMPLES.md                      # 🧪 Hands-on exercises
+└── guia-mac.md                      # 🍎 macOS setup guide
 ```
 
 ### 3. Maven Configuration (`pom.xml`)
@@ -153,6 +159,8 @@ Content-Length: 54
 2. **Add parameters**: Use `req.getParameter("name")` to personalize the greeting
 3. **Add CSS styling**: Include CSS in your HTML response
 4. **Handle POST requests**: Override `doPost()` method
+
+> 💡 **Want hands-on practice?** Check out [EXAMPLES.md](EXAMPLES.md) for step-by-step exercises, code samples, and progressive challenges!
 
 ## 🛠️ Quick Start
 
