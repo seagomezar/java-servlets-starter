@@ -42,6 +42,13 @@ public class HolaMundoServletTest {
     }
 
     @Test
+    @DisplayName("Test HelloServlet class can be instantiated")
+    public void testHelloServletInstantiation() {
+        HelloServlet servlet = new HelloServlet();
+        assertNotNull(servlet, "HelloServlet should be instantiated successfully");
+    }
+
+    @Test
     @DisplayName("Test servlet renders expected HTML content")
     public void testServletRendersExpectedText() throws Exception {
         // Execute the servlet
