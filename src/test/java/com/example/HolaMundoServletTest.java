@@ -17,6 +17,13 @@ public class HolaMundoServletTest {
     }
 
     @Test
+    @DisplayName("Test HelloServlet class can be instantiated")
+    public void testHelloServletInstantiation() {
+        HelloServlet servlet = new HelloServlet();
+        assertNotNull(servlet, "HelloServlet should be instantiated successfully");
+    }
+
+    @Test
     @DisplayName("Test basic functionality")
     public void testBasicFunctionality() {
         assertTrue(true, "Basic test should pass");
