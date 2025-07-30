@@ -7,14 +7,14 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-@WebServlet("/hello")
-public class HelloServlet extends HttpServlet {
+@WebServlet("/nico1")
+public class NicolasOspinaTorres extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) 
             throws ServletException, IOException {
         try {
             // Forward the request to index.jsp
-            req.getRequestDispatcher("/index.jsp").forward(req, resp);
+            req.getRequestDispatcher("/pg1.jsp").forward(req, resp);
         } catch (Exception e) {
             // Handle any errors that might occur during forwarding
             resp.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
