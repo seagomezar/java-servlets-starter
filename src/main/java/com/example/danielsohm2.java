@@ -7,8 +7,8 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-@WebServlet("/hello")
-public class HelloServlet extends HttpServlet {
+@WebServlet("/daniel-sohm2")
+public class danielsohm2 extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) 
             throws ServletException, IOException {
@@ -26,4 +26,3 @@ public class HelloServlet extends HttpServlet {
         }
     }
 }
-
