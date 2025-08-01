@@ -1,3 +1,4 @@
+// este archivo es para aprender como hacer un servlet 
 package com.example;
 
 import java.io.IOException;
