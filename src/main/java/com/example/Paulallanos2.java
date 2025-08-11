@@ -1,20 +1,21 @@
 package com.example;
 
 import java.io.IOException;
+
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-@WebServlet("/hello")
-public class HelloServlet extends HttpServlet {
+@WebServlet("/paula2")
+public class Paulallanos2 extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) 
             throws ServletException, IOException {
         try {
             // Forward the request to index.jsp
-            req.getRequestDispatcher("/index.jsp").forward(req, resp);
+            req.getRequestDispatcher("/paula2.jsp").forward(req, resp);
         } catch (Exception e) {
             // Handle any errors that might occur during forwarding
             resp.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
