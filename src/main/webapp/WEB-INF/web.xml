@@ -9,7 +9,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>DiegoGonzalez</servlet-name>
-        <url-pattern>/tu-nombre</url-pattern>
+        <url-pattern>/Diego-Gonzalez</url-pattern>
     </servlet-mapping>
     <servlet>
         <servlet-name>DiegoGonzalez2</servlet-name>
@@ -17,6 +17,6 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>DiegoGonzalez2</servlet-name>
-        <url-pattern>/tu-nombre-2</url-pattern>
+        <url-pattern>/Diego-Gonzalez-2</url-pattern>
     </servlet-mapping>
 </web-app>
