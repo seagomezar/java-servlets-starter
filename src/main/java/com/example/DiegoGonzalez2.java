@@ -20,8 +20,7 @@ public class DiegoGonzalez2 extends HttpServlet {
         out.println("<html><body>");
         out.println("<h1 style=\"color:green\">Sobre mí</h1>");
         out.println("<p>Mi nombre es Diego Gonzalez y soy estudiante de Ingeniería de Sistemas en quinto semestre.</p>");
-        out.println("<p>Disfruto mucho practicar fútbol, jugar ajedrez, montar bicicleta, leer y aprender matemáticas.</p>");
-        out.println("<p>Mi meta es combinar mis habilidades técnicas con mis pasiones para crear soluciones innovadoras.</p>");
+        out.println("<p>Quiero ser el mejor Ingeniero y Desarrollador, y me esfuerzo para poder lograrlo</p>");
         out.println("</body></html>");
     }
 }
