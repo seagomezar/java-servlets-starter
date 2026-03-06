@@ -1,6 +1,6 @@
 # Java Servlets Starter - Learn Web Development with Java
 
-![Java](https://img.shields.io/badge/Java-11+-orange.svg) ![Maven](https://img.shields.io/badge/Maven-3.6+-blue.svg) ![Jakarta EE](https://img.shields.io/badge/Jakarta%20EE-6.1.0-green.svg)
+![Java](https://img.shields.io/badge/Java-17+-orange.svg) ![Maven](https://img.shields.io/badge/Maven-3.6+-blue.svg) ![Jakarta EE](https://img.shields.io/badge/Jakarta%20EE-6.1.0-green.svg)
 
 > 🎯 **Educational Repository**: Learn the fundamentals of building web applications with Java Servlets, Maven, and modern Jakarta EE technologies.
 
@@ -260,7 +260,7 @@ Esta guía detalla los pasos para instalar y configurar Java, Maven y Tomcat, y 
 
 #### **1.1 Instalar Java Development Kit (JDK)**
 - Descarga la última versión del JDK desde [Oracle JDK](https://www.oracle.com/java/technologies/javase-downloads.html)
-- **Nota**: Este proyecto requiere Java 11 o superior. Se recomienda Java 17 o 21 (versiones LTS)
+- **Nota**: Este proyecto requiere Java 17 o superior. Se recomienda Java 17 o 21 (versiones LTS)
 - Instala el JDK y configúra las variables de entorno:
   1. Abre el "Panel de Control" > "Sistema y Seguridad" > "Sistema" > "Configuración avanzada del sistema".
   2. Haz clic en "Variables de entorno".
